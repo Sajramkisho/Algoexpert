@@ -30,7 +30,7 @@ const twoSum2 = (inputArr, targetSum) => {
 
   while (L < R) {
     if (L + R < targetSum) L++
-    else if (L + R > targetSum) R++
+    else if (L + R > targetSum) R--
     else return [R, L]
   }
 }
