@@ -1,6 +1,6 @@
 // inputarray = [3, 5, -4, 8, 11, 1, -1, 6]
 // target = 10
-// expected: return the two numbers sums up to target . dont return indices
+// expected output: return the two numbers sums up to target . dont return indices
 
 //timecomplexity : O(N^2)
 //spacecomplexity: O(1)
